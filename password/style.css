@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav {
+    background-color: aqua;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 900;
+    font-size: 21px;
+    margin: 0 23px;
+    color: rgb(43, 5, 78);
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+    font-weight: 900;
+}
+ul > li:hover{
+   color: rgb(224, 54, 54);
+}
+
+table {
+    border: 2px solid black;
+}
+table,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+h1,h2,h3{
+    margin: 23px 0;
+}
+.btn{
+    padding: 8px 17px;
+    background: rgb(8, 109, 5);
+    color:black;
+    font-weight:900;
+    border: 2px solide black;
+    border-radius: 8px;
+    margin: 30px 10px;
+    cursor: pointer;
+
+}
+.btnsm{
+    
+    background: rgb(8, 109, 5);
+    color:black;
+    font-weight:900;
+    border: 2px solide black;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
